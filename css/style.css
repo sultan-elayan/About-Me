@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+ font-size: 50px;
+ background-color:black;
+ color: white;
+ padding: 0.5%;
+}
+
+nav ul li{
+    margin: 80px;
+    padding: 10px;
+    display: inline;
+    font-size: 20px;
+    background-color: black;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+main article h2{
+    font-size: 40px;
+}
+
+body{
+    background-image: url(https://c.pxhere.com/photos/30/68/paper_paper_stand_inscription_table_write_down_note_diary_notebook-1384284.jpg!d);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+p{
+    font-size: 25px;
+    display: block;
+
+}
+
+h3{
+    font-size: 40px;
+}
