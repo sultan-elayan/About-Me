@@ -6,6 +6,20 @@ h1{
  padding: 0.5%;
 }
 
+article h2{
+font-size: 60px; 
+display: inline;
+margin: 20px;
+}
+
+h3{
+    font-size: 40px;
+    display: inline;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.308);
+    padding: 5px;
+}
+
 nav ul li{
     margin: 80px;
     padding: 10px;
@@ -19,24 +33,32 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
-
-main article h2{
-    font-size: 40px;
-}
-
+ 
 body{
     background-image: url(https://c.pxhere.com/photos/30/68/paper_paper_stand_inscription_table_write_down_note_diary_notebook-1384284.jpg!d);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:cover;
+    
 
 }
 
 p{
     font-size: 25px;
     display: block;
+    margin: 20px;
 
 }
 
-h3{
-    font-size: 40px;
+
+
+ol  {
+    font-size: 25px;
+    margin: 37px;
+list-style:decimal ;
+}
+
+ul{
+    font-size: 25px;
+    margin: 25px;
+    list-style:disc;
 }
