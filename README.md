@@ -12,3 +12,7 @@ today 28/4/2021 i work with Sultan Eleyan in his (app.js)
 2) convert the Q7 to comment .
 3) modifey the code Q7 .
 
+ <!-- Driver : ahmad jarrar
+Navigator : sultan elayan
+
+we worked together in " about- me " website and make the necessary modification as the lab requirement -->

@@ -140,29 +140,33 @@ for (let i = 0; i < 4; i++) {
 
 
 // i modefiy the Q6 to work by loops 
+function drink() {
+    let favDrink = ['cola', 'vemto', 'abu saleh', 'coffee'];
 
-let favDrink = ['cola', 'vemto', 'abu saleh', 'coffee'];
+    for (let j = 0; j < 6; j++) {
 
-for (let j = 0; j < 6; j++) {
+        let userAnswer6 = prompt('guess what is my favourite drink ?');
 
-    let userAnswer6 = prompt('guess what is my favourite drink ?');
+        for (let i = 0; i <= favDrink.length; i++) {
+            if (userAnswer6 == favDrink[i]) {
 
-    for (let i = 0; i <= favDrink.length; i++) {
-        if (userAnswer6 == favDrink[i]) {
+                alert('wow thats correct');
+                score++;
+                j = 10;
+                break;
 
-            alert('wow thats correct');
-            score++;
-            j = 10;
-            break;
+            } else {
+                alert('try another drink');
+                break;
 
+
+
+            }
         }
-
-        alert('try another drink')
-
     }
 }
+drink();
 
-
-alert('all my favourite drink was ' + favDrink)
-alert('bravo ' + userName + ' you have end the quizz your score is ' + score)
-console.log(score)
+alert('all my favourite drink was' + ' ' + 'cola' + ' ' + 'vemto' + ' ' + 'abu saleh' + ' ' + 'coffee');
+alert('bravo ' + userName + ' you have end the quizz your score is ' + score);
+console.log(score);
