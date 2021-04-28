@@ -7,4 +7,8 @@ Author:sultan elayan
 <!-- i learned about arrys tody 27/4/2021-->
 <!-- we look at baraah repo to help us to wirting our app.js-->
 
+today 28/4/2021 i work with Sultan Eleyan in his (app.js)
+1) removed the Q5 
+2) convert the Q7 to comment .
+3) modifey the code Q7 .
 
