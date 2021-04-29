@@ -4,6 +4,7 @@ h1{
  background-color:black;
  color: white;
  padding: 0.5%;
+ 
 }
 
 article h2{
@@ -26,12 +27,12 @@ nav ul li{
     display: inline;
     font-size: 20px;
     background-color: black;
-   
 }
 
 nav ul li a{
     text-decoration: none;
     color: white;
+    
 }
  
 body{
@@ -46,6 +47,8 @@ p{
     font-size: 25px;
     display: block;
     margin: 20px;
+    font-family: sans-serif;
+
 
 }
 
@@ -55,10 +58,22 @@ ol  {
     font-size: 25px;
     margin: 37px;
 list-style:decimal ;
+font-family: sans-serif;
+
 }
 
 ul{
     font-size: 25px;
     margin: 25px;
     list-style:disc;
+    font-family: sans-serif;
+
+}
+
+footer{
+    text-align: center;
+    font-size: 35px;
+    position: fixed;
+    bottom: 20px;
+    left: 500px;
 }
